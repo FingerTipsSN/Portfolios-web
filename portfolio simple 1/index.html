@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Sergio Pinta</span></a>
+
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">About</a>
+            </li>
+        </ul>
+
+        <ion-icon name="menu" id="menu-icon"></ion-icon>
+        <button class="visit-btn">Visit GitHub</button>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="imagen-perfil.jpg">
+
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I'm</h3>
+                    <h1>Sergio Pinta</h1>
+                    <span>Backend Developer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Download cv</div>
+                    <div class="btn">Contact</div>
+                </div>
+
+                <div class="socials">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-tittle">Experience</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <ion-icon name="desktop"></ion-icon>
+                    <span>Backend Developer</span>
+                    <h3>5 Years</h3>
+                    <p>Descripcion para cada rol de trabajo</p>
+                </div>
+                <div class="grid-card">
+                    <ion-icon name="construct"></ion-icon>
+                    <span>Software Architech</span>
+                    <h3>1 Year</h3>
+                    <p>Descripcion para cada rol de trabajo</p>
+                </div>
+                <div class="grid-card">
+                    <ion-icon name="code-slash"></ion-icon>
+                    <span>Frontend Developer</span>
+                    <h3>3 Years</h3>
+                    <p>Descripcion para cada rol de trabajo</p>
+                </div>
+                <div class="grid-card">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                    <span>YouTube Creator</span>
+                    <h3>3 Years</h3>
+                    <p>Descripcion para cada rol de trabajo</p>
+                </div>
+            </div>
+
+            <img src="imagen setup.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-tittle">Recent Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <img src="imagen-1.jpg" alt="">
+                <h3>Project Title 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="imagen-2.png" alt="">
+                <h3>Project Title 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="imagen-3.png" alt="">
+                <h3>Project Title 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="btn-group">
+                    <div class="btn">Live Demo</div>
+                    <div class="btn">Github Repo</div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="input-box">
+            <h2 class="contact-me">Contact Me</h2>
+            <div class="input">
+                <input type="text" placeholder="example@email.com">
+                <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="btn">Submit</div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">All Rights Reserved</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
